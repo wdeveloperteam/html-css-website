@@ -1,0 +1,365 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Header start*/
+header{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient( to left, #C33764 , #1D2671);   
+}
+
+header .head-logo{
+    float: left;
+}
+
+header .head-logo p {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 70px;
+    padding-left: 118px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+header .menu-content ul {
+    float: right;
+    line-height: 70px;
+    padding-right: 70px;
+}
+header .menu-content ul li{
+    display: inline-block;
+}
+header .menu-content ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding:0px 20px 0px 10px;
+}
+
+.menu-head{
+ float: right;
+}
+.menu-head h1{
+ font-size: 30px;
+ color:white;
+ font-weight: bold;
+ text-transform: uppercase;
+ padding-right: 250px;
+ line-height: 70px;
+}
+/* Header end*/
+
+/*banner area strat*/
+.container{
+ text-align: center;
+}
+.container .banner-pic {
+    width: 100%;
+    height: 550px;
+    background-image: url(image/ban5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container .banner-pic .banner-content h2{
+    color: #ffffff;
+    font-size: 50px; 
+    padding-top: 160px;
+}
+.container .banner-pic .banner-content h3 {
+    color: #e8177f;
+    font-size: 33px;
+    margin-top: 27px;
+}
+.btn-aera{
+    display: inline-block;
+    margin-top: 45px;
+}
+.btn-aera .butoon1{
+   float: left;
+   margin-right: 10px;
+}
+.btn-aera .butoon1 button {
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #E8177F;
+    color: white;
+    padding: 12px;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn-aera .butoon1 button:hover {
+    background: #4E2B6D;
+    transition: 0.5s ease;
+
+}
+.btn-aera .butoon2 {
+    float: left;
+    margin-left: 10px;  
+}
+.btn-aera .butoon2 button {
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #E8177F;
+    color: white;
+    padding: 12px;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+.btn-aera .butoon2 button:hover {
+    background: #4E2B6D;
+    transition: all 0.5s ease;
+}
+
+/*banner area end*/
+
+/*middel area start*/
+.middel-area {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.middel-area .middel-text .divider {
+    width: 8%;
+    height: 3px;
+    background: #1e9869;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.middel-area .middel-text h2 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: #dc1377;
+}
+.middel-area .middel-text p {
+    padding-top: 20px;
+    font-size: 22px;
+    width: 70%;
+    margin: auto;
+}
+
+.middel-content {
+    width: 100%;
+    padding-bottom: 60px;
+}
+.middel-content .middel-ltext{
+    width: 60%;
+    float: left;
+} 
+.middel-ltext .text-box1 {
+    background: black;
+    padding: 20px;
+    margin: 35px 100px 33px 84px;
+}
+.middel-ltext h3 {
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.middel-ltext p {
+    margin-top: 10px;
+    color: #ccbcbc;
+    font-size: 16px;
+}
+.middel-content .middle-rimg {
+    width: 40%;
+    display: inline-block;
+    margin-left: -40px;
+}
+/*middel area end*/
+/*middel area2 start*/
+.section{
+    width: 100%;
+    height: 637px;
+    background:linear-gradient( #C33764 , #1D2671);
+    padding-top: 90px;
+    margin: auto;
+}
+.section .testimonial-content{
+    width: 68%;
+    margin: auto;
+}
+.section .testimonial-content h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.section .testimonial {
+    width: 22%;
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 27px;
+    margin-left: 37px;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float: left;
+}
+.section .testimonial img{
+    width: 80px;
+    margin-bottom: 16px;
+}
+.section .testimonial h4 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+.section .testimonial1 {
+    width: 22%;
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 27px;
+    margin-left: 21px;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float: left;
+}
+.section .testimonial1 img{
+    width: 80px;
+    margin-bottom: 16px;
+}
+.section .testimonial1 h4 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+.section .testimonial2 {
+    width: 22%;
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 27px;
+    margin-left: 21px;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float: left;
+}
+.section .testimonial2 img{
+    width: 80px;
+    margin-bottom: 16px;
+}
+.section .testimonial2 h4 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+.section .testimonial3 {
+    width: 22%;
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 27px;
+    margin-left: 21px;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    float: left;
+}
+.section .testimonial3 img{
+    width: 80px;
+    margin-bottom: 16px;
+}
+.section .testimonial3 h4 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+/*middel area2 end*/
+
+/*contact form start*/
+.contact-section{
+    background: url(image/slider-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.contact-section h2{
+    padding-top: 80px;
+    text-align: center;
+    color: #ddd;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.contact-section h3{
+    text-align: center;
+    color: #ddd;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.contact-section .foot-dev {
+    width: 8%;
+    height: 3px;
+    background: #ff0d87;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-form {
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 10px 20px;
+    border: 2px solid #c36d998f;
+}
+.contact-form-text {
+    width: 100%;
+    display: block;
+    margin: 16px 0;
+    box-sizing: border-box;
+    background: #1111116e;
+    border: 0;
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+}
+.contact-form-btn {
+    width: 23%;
+    margin: auto;
+    display: block;
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 53px;
+    cursor: pointer;
+    background: #dc207f;
+    color: white;
+    letter-spacing: 2px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-form-btn:hover {
+    background: #111;
+    transition: 0.5s ease;
+    border: 2px solid white;
+
+}
+/*contact form end*/
+/*fotter aera start*/
+.footer{
+width: 100%;
+height: 60px;
+background: black;
+margin: auto;
+}
+.footer p {
+    font-size: 18px;
+    color: #ffffffbf;
+    text-align: center;
+    padding-top: 26px;
+}
+/*fotter aera end*/
